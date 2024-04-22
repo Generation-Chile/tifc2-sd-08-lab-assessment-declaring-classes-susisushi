@@ -8,7 +8,7 @@ info(){
   //return this.name + " has reached level " + String(this.level)
 }
 levelUp(){
-this.level= this.level+1
+this.level++
   return this.level
 }
   
